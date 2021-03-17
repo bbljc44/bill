@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    android:background="#e6e6e6"
+    android:useDefaultMargins="true"
+    android:columnCount="4"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_columnSpan="4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_weight="1"
+            android:text="备注："
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/popup_et"
+            android:layout_weight="4"
+            android:hint="点击写备注..."
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/popup_sum"
+            android:paddingRight="20dp"
+            android:textAlignment="textEnd"
+            android:layout_weight="2"
+            android:text="0.00"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_columnSpan="4"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/popup_seven"
+            android:layout_weight="1"
+            android:textSize="25sp"
+            android:text="7"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/popup_eight"
+            android:layout_weight="1"
+            android:textSize="25sp"
+            android:text="8"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/popup_nine"
+            android:layout_weight="1"
+            android:textSize="25sp"
+            android:text="9"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/popup_clear"
+            android:layout_weight="1"
+            android:textSize="25sp"
+            android:text="C"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_columnSpan="4"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/popup_four"
+            android:layout_weight="1"
+            android:textSize="25sp"
+            android:text="4"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/popup_five"
+            android:layout_weight="1"
+            android:textSize="25sp"
+            android:text="5"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/popup_six"
+            android:layout_weight="1"
+            android:textSize="25sp"
+            android:text="6"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/popup_add"
+            android:layout_weight="1"
+            android:textSize="25sp"
+            android:text="+"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_columnSpan="4"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/popup_one"
+            android:layout_weight="1"
+            android:textSize="25sp"
+            android:text="1"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/popup_two"
+            android:layout_weight="1"
+            android:textSize="25sp"
+            android:text="2"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/popup_three"
+            android:layout_weight="1"
+            android:textSize="25sp"
+            android:text="3"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/popup_reduce"
+            android:layout_weight="1"
+            android:textSize="25sp"
+            android:text="-"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_columnSpan="4"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/popup_point"
+            android:layout_weight="1"
+            android:textSize="25sp"
+            android:text="."
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/popup_zero"
+            android:layout_weight="1"
+            android:textSize="25sp"
+            android:text="0"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/popup_back"
+            android:layout_weight="1"
+            android:textSize="25sp"
+            android:text="←"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/popup_confirm"
+            android:layout_weight="1"
+            android:textSize="25sp"
+            android:text="确定"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</GridLayout>

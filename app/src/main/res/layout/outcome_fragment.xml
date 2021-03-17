@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scroll_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:columnCount="4"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/food"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="30dp"
+                android:background="@drawable/circle_bg"
+                android:clickable="true"
+                android:contentDescription="@null"
+                android:src="@drawable/food" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/food"
+                android:layout_marginStart="40dp"
+                android:layout_marginBottom="25dp"
+                android:text="餐饮" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/fruits"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="30dp"
+                android:background="@drawable/circle_bg"
+                android:clickable="true"
+                android:contentDescription="@null"
+                android:src="@drawable/fruits" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/fruits"
+                android:layout_marginStart="40dp"
+                android:layout_marginBottom="25dp"
+                android:text="水果" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/clothes"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="30dp"
+                android:background="@drawable/circle_bg"
+                android:clickable="true"
+                android:contentDescription="@null"
+                android:src="@drawable/clothes" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/clothes"
+                android:layout_marginStart="40dp"
+                android:layout_marginBottom="25dp"
+                android:text="衣服" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/shop"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="30dp"
+                android:background="@drawable/circle_bg"
+                android:clickable="true"
+                android:contentDescription="@null"
+                android:src="@drawable/shop" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/shop"
+                android:layout_marginStart="40dp"
+                android:layout_marginBottom="25dp"
+                android:text="购物" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/snacks"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="30dp"
+                android:background="@drawable/circle_bg"
+                android:clickable="true"
+                android:contentDescription="@null"
+                android:src="@drawable/snacks" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/snacks"
+                android:layout_marginStart="40dp"
+                android:layout_marginBottom="25dp"
+                android:text="零食" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/book"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="30dp"
+                android:background="@drawable/circle_bg"
+                android:clickable="true"
+                android:contentDescription="@null"
+                android:src="@drawable/book" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/book"
+                android:layout_marginStart="40dp"
+                android:layout_marginBottom="25dp"
+                android:text="书籍" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/traffic"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="30dp"
+                android:background="@drawable/circle_bg"
+                android:clickable="true"
+                android:contentDescription="@null"
+                android:src="@drawable/traffic" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/traffic"
+                android:layout_marginStart="40dp"
+                android:layout_marginBottom="25dp"
+                android:text="交通" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/sports"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="30dp"
+                android:background="@drawable/circle_bg"
+                android:clickable="true"
+                android:contentDescription="@null"
+                android:src="@drawable/sports" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/sports"
+                android:layout_marginStart="40dp"
+                android:layout_marginBottom="25dp"
+                android:text="运动" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/vegetables"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="30dp"
+                android:background="@drawable/circle_bg"
+                android:clickable="true"
+                android:contentDescription="@null"
+                android:src="@drawable/vegetables" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/vegetables"
+                android:layout_marginStart="40dp"
+                android:layout_marginBottom="25dp"
+                android:text="蔬菜" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/beauty"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="30dp"
+                android:background="@drawable/circle_bg"
+                android:clickable="true"
+                android:contentDescription="@null"
+                android:src="@drawable/beauty" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/beauty"
+                android:layout_marginStart="40dp"
+                android:layout_marginBottom="25dp"
+                android:text="美容" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/entertainment"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="30dp"
+                android:background="@drawable/circle_bg"
+                android:clickable="true"
+                android:contentDescription="@null"
+                android:src="@drawable/entertainment" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/entertainment"
+                android:layout_marginStart="40dp"
+                android:layout_marginBottom="25dp"
+                android:text="娱乐" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/house"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="30dp"
+                android:background="@drawable/circle_bg"
+                android:clickable="true"
+                android:contentDescription="@null"
+                android:src="@drawable/house" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/house"
+                android:layout_marginStart="40dp"
+                android:layout_marginBottom="25dp"
+                android:text="住房" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/travel"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="30dp"
+                android:background="@drawable/circle_bg"
+                android:clickable="true"
+                android:contentDescription="@null"
+                android:src="@drawable/travel" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/travel"
+                android:layout_marginStart="40dp"
+                android:layout_marginBottom="25dp"
+                android:text="旅游" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/communication"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="30dp"
+                android:background="@drawable/circle_bg"
+                android:clickable="true"
+                android:contentDescription="@null"
+                android:src="@drawable/communication" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/communication"
+                android:layout_marginStart="40dp"
+                android:layout_marginBottom="25dp"
+                android:text="通讯" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/car"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="30dp"
+                android:background="@drawable/circle_bg"
+                android:clickable="true"
+                android:contentDescription="@null"
+                android:src="@drawable/car" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/car"
+                android:layout_marginStart="40dp"
+                android:layout_marginBottom="25dp"
+                android:text="汽车" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/medicine"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="30dp"
+                android:background="@drawable/circle_bg"
+                android:clickable="true"
+                android:contentDescription="@null"
+                android:src="@drawable/medicine" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/medicine"
+                android:layout_marginStart="40dp"
+                android:layout_marginBottom="25dp"
+                android:text="医疗" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/elder"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="30dp"
+                android:background="@drawable/circle_bg"
+                android:clickable="true"
+                android:contentDescription="@null"
+                android:src="@drawable/elder" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/elder"
+                android:layout_marginStart="40dp"
+                android:layout_marginBottom="25dp"
+                android:text="长辈" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/baby"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="30dp"
+                android:background="@drawable/circle_bg"
+                android:clickable="true"
+                android:contentDescription="@null"
+                android:src="@drawable/baby" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/baby"
+                android:layout_marginStart="40dp"
+                android:layout_marginBottom="25dp"
+                android:text="孩子" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/digital"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="30dp"
+                android:background="@drawable/circle_bg"
+                android:clickable="true"
+                android:contentDescription="@null"
+                android:src="@drawable/digital" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/digital"
+                android:layout_marginStart="40dp"
+                android:layout_marginBottom="25dp"
+                android:text="数码" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/donate"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="30dp"
+                android:background="@drawable/circle_bg"
+                android:clickable="true"
+                android:contentDescription="@null"
+                android:src="@drawable/donate" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/donate"
+                android:layout_marginStart="40dp"
+                android:layout_marginBottom="25dp"
+                android:text="捐款" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/gifts"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="30dp"
+                android:background="@drawable/circle_bg"
+                android:clickable="true"
+                android:contentDescription="@null"
+                android:src="@drawable/gifts" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/gifts"
+                android:layout_marginStart="40dp"
+                android:layout_marginBottom="25dp"
+                android:text="礼物" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/learn"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="30dp"
+                android:background="@drawable/circle_bg"
+                android:clickable="true"
+                android:contentDescription="@null"
+                android:src="@drawable/learn" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/learn"
+                android:layout_marginStart="40dp"
+                android:layout_marginBottom="25dp"
+                android:text="学习" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/pets"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="30dp"
+                android:background="@drawable/circle_bg"
+                android:clickable="true"
+                android:contentDescription="@null"
+                android:src="@drawable/pets" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/pets"
+                android:layout_marginStart="40dp"
+                android:layout_marginBottom="25dp"
+                android:text="宠物" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/others"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="30dp"
+                android:background="@drawable/circle_bg"
+                android:clickable="true"
+                android:contentDescription="@null"
+                android:src="@drawable/others" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/others"
+                android:layout_marginStart="40dp"
+                android:layout_marginBottom="25dp"
+                android:text="其他" />
+        </RelativeLayout>
+
+    </GridLayout>
+
+</ScrollView>
+
